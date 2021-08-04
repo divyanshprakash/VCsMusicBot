@@ -25,4 +25,4 @@ ARQ_API_KEY = getenv("ARQ_API_KEY", None)
 PMPERMIT = getenv("PMPERMIT", None)
 LOG_GRP = getenv("LOG_GRP", None)
 COMMAND_PREFIXES = list(getenv("/", "/ !").split())
-SUDO_USERS = list(map(int, getenv("").split()))
+SUDO_USERS =
